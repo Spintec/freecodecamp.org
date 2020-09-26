@@ -20,13 +20,16 @@ var collection = {
   };
   
   // Only change code below this line
- /* function updateRecords(object, id, prop, value) {
-
+ function updateRecords(object, id, prop, value) {
+    if (object[id].hasOwnProperty(prop) && value!=""){
+      object[id].prop[object[id].prop.length]=value;
+    }
     object[id]="tracks";
     return object;
+   
   }
   
   console.log(updateRecords(collection, 5439, 'artist', 'ABBA'));
- */ 
+
 console.log(collection);
 
