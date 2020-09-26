@@ -31,5 +31,4 @@ var collection = {
   
   console.log(updateRecords(collection, 5439, 'artist', 'ABBA'));
 
-console.log(collection);
 
