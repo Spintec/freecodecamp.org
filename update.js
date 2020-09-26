@@ -30,5 +30,7 @@ var collection = {
   }
   
   console.log(updateRecords(collection, 5439, 'artist', 'ABBA'));
+  updateRecords(collection, 5439, "tracks", "Take a Chance on Me");
+  updateRecords(collection, 2548, "artist", "");
 
 
