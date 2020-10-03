@@ -19,31 +19,13 @@ var collection = {
     }
   };
   
-
   // Only change code below this line
-  function updateRecords(object, id, prop, value) {
-    if (value === '') {
-      delete object[id][prop];
-    }
-    else if (prop === 'tracks') {
-      object[id][prop] = object[id][prop] || [];
-      object[id][prop].push(value);
-    } else {
-      object[id][prop] = value;
-    }
+ /* function updateRecords(object, id, prop, value) {
+
+    object[id]="tracks";
     return object;
-   
   }
- 
-updateRecords(collection, 2468, "tracks", "Free");
-updateRecords(collection, 5439, "artist", "ABBA");
-updateRecords(collection, 5439, "tracks", "Take a Chance on Me");
-updateRecords(collection, 2548, "artist", "");
-updateRecords(collection, 1245, "tracks", "Addicted to Love");
-updateRecords(collection, 2468, "tracks", "Free");
-updateRecords(collection, 2548, "tracks", "");
-console.log(updateRecords(collection, 1245, "albumTitle", "Riptide"));
-
-
-
-
+  
+  console.log(updateRecords(collection, 5439, 'artist', 'ABBA'));
+ */ 
+console.log(collection);
