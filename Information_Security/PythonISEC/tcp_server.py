@@ -3,7 +3,7 @@
 import socket
 
 #Creating the socket object
-serversocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host = socket.gethostbyname()
 port = 42567
 
