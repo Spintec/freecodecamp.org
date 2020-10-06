@@ -9,6 +9,7 @@ host = socket.gethostname()
 port= 42567
 
 clientsocket.connect((host,port))
+print("Connection initiated")
 
 message = clientsocket.recv(1024)
 print(message.decode('ascii'))
