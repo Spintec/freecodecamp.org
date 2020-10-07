@@ -5,6 +5,8 @@ import socket
 clientsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 #used a function to get the hostname, instead of specifying it
+#host = socket.gethostname()
+
 host = socket.gethostname()
 port= 42567
 
