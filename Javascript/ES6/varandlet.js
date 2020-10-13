@@ -3,10 +3,10 @@
 //console.log(camper);
 // logs 'David'
 
-let camper = 'James';
-let camper = 'David';
-console.log(camper);
-throws and error
-"use strict";
-x=3.14;
+//"use strict";
+//let camper = 'James';
+//let camper = 'David';
+//console.log(camper);
+//throws an error
+//x=3.14;
 
